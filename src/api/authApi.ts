@@ -4,8 +4,8 @@ import { RegisterInput } from '../pages/register.page';
 import { ResetPasswordInput } from '../pages/resetpassword.page';
 import { GenericResponse, ILoginResponse, IUserResponse } from './types';
 
-const BASE_URL = 'http://localhost:8000/api/';
-// const BASE_URL = 'https://api.alexsong3.com/api/';
+// const BASE_URL = 'http://localhost:8000/api/';
+const BASE_URL = 'https://api.alexsong3.com/api/';
 
 export const authApi = axios.create({
   baseURL: BASE_URL,
